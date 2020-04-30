@@ -1,7 +1,7 @@
 #! /bin/bash
 export GOROOT=/opt
 
-sudo mkdir -p GOROOT
+sudo mkdir -p $GOROOT
 
 wget https://dl.google.com/go/go1.13.linux-amd64.tar.gz
 
